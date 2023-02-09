@@ -1,3 +1,9 @@
+*{ font-family: 'Roboto', sans-serif;}
+
+body{
+    text-align: center;
+}
+
 input[type=button]{
     font-family: 'Noto Sans NKo', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -20,7 +26,7 @@ input[type=button]:focus{
 }
 
 .master_container{
-    padding-top: 30px;
+    padding-top: 50px;
     top: 50%;
     left: 50%;
     margin: auto;
@@ -30,24 +36,25 @@ input[type=button]:focus{
 input[type=text], input[type=password]{
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-bottom: 12px;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius:30px;
+    border-radius: 30px;
     box-sizing: border-box;
 }
 
 #form{
-    margin:auto;
     width: 90%;
-    padding:10px;
+    padding-top: 35px;
 }
 
 #confirm{
     width: 80%;
-    border: 3px solid green;
+    border: 2px solid green;
     border-radius: 30px;
-    margin: auto;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -63,6 +70,23 @@ input[type=text], input[type=password]{
     padding-bottom: 10px;
 }
 
-input{ 
-    margin-bottom: 12px;
+
+#forgot{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline;
+    margin-right: auto;
+    margin-left:auto;
+    width: auto;
+    text-decoration: none;
+}
+
+
+form{
+    display: inline-block;
+}
+
+.form input{
+    display:block;
+    margin-bottom: 1em;
 }
